@@ -1,2 +1,10 @@
+title: "StackFire Blog"
+baseurl: "/blog" # Ruta base del sitio
+url: "https://stackfire.github.io" # URL de tu sitio
 theme: minima
-markdown: kramdown
+
+# Plugins recomendados (opcional)
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
