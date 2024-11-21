@@ -1,4 +1,4 @@
-title: "StackFire Blog"
+title: "Stackfire Blog"
 baseurl: "/blog" # Ruta base del sitio
 url: "https://stackfire.github.io" # URL de tu sitio
 theme: minima
