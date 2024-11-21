@@ -5,6 +5,5 @@
   <title>StackFire Blog</title>
 </head>
 <body>
-  <h1>Blog de Stackfire</h1>
 </body>
 </html>
