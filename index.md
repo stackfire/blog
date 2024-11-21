@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -6,7 +5,6 @@
   <title>StackFire Blog</title>
 </head>
 <body>
-  <h1>Bienvenido al Blog de StackFire</h1>
-
+  <h1>Blog de Stackfire</h1>
 </body>
 </html>
