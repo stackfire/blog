@@ -37,15 +37,14 @@ Imagina que tienes múltiples configuraciones de infraestructura desplegadas en 
 2. **Integración con Terraform**:
    - Usa un script que conecte tu modelo de IA con los archivos de configuración de Terraform.
    - Ejemplo de un archivo `main.tf` generado dinámicamente:
-     ```hcl
-     resource "aws_instance" "optimized" {
-       ami           = "ami-12345678"
-       instance_type = var.optimized_instance_type
-       tags = {
-         Name = "IA-Optimized-Instance"
-       }
+   ```hcl
+   resource "aws_instance" "optimized" {
+     ami           = "ami-12345678"
+     instance_type = var.optimized_instance_type
+     tags = {
+       Name = "IA-Optimized-Instance"
      }
-     ```
+   }
 
 3. **Automatización con Python e IA**:
    - Usa un script Python para analizar datos de uso y generar variables dinámicas:
