@@ -7,12 +7,6 @@
 </head>
 <body>
   <h1>Bienvenido al Blog de StackFire</h1>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> - <span>{{ post.date | date: "%d de %B de %Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
+
 </body>
 </html>
